@@ -54,7 +54,7 @@ watch(() => route.path + window.location.hash, (newPath) => {
 })
 
 const copyIp = () => {
-  const ip = 'mc.lostshard.com' // Your server IP
+  const ip = 'minecraft.lostshard.com'
   navigator.clipboard.writeText(ip).then(() => {
     copyButtonText.value = 'Copied!'
     setTimeout(() => {

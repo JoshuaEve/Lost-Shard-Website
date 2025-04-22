@@ -12,7 +12,7 @@ export default defineConfig({
       { text: 'Rules', link: '/rules' },
       { text: 'Discord', link: 'https://discord.gg/7VeubtZ' },
       {
-        text: 'Server IP',
+        text: 'Server IP: minecraft.lostshard.com',
         link: '#server-ip',
         activeMatch: '^#server-ip$'
       }
