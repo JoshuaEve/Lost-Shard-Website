@@ -18,7 +18,7 @@ hero:
     - theme: brand
       text: Discord
       link: /api-examples
-  image: /img/hero.png
+  image: /hero.png
 
 features:
   - title: Feature A
