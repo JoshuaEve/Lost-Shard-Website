@@ -10,16 +10,20 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Wiki', link: '/wiki' },
       { text: 'Rules', link: '/rules' },
-      { text: 'Discord', link: '/discord' },
-      { text: 'Server IP: minecraft.lostshard.com', link: '/play' }
+      { text: 'Discord', link: 'https://discord.gg/7VeubtZ' },
+      {
+        text: 'Server IP',
+        link: '#server-ip',
+        activeMatch: '^#server-ip$'
+      }
     ],
-
+    
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Getting Started',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Introduction', link: '/introduction' },
+          { text: 'Rules', link: '/rules' }
         ]
       }
     ],

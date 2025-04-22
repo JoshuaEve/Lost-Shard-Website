@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
@@ -8,16 +7,17 @@ hero:
   actions:
     - theme: brand
       text: Play Now!
-      link: /play
+      link: '#server-ip'
+      id: play-button
     - theme: brand
       text: Wiki
-      link: /wiki
+      link: /introduction
     - theme: brand
       text: Rules
-      link: /api-examples
+      link: /rules
     - theme: brand
       text: Discord
-      link: /api-examples
+      link: 'https://discord.gg/7VeubtZ'
   image: /hero.png
 
 features:
@@ -28,4 +28,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
