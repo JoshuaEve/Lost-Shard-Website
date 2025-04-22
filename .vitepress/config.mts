@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/wiki' },
+      { text: 'Wiki', link: '/introduction' },
       { text: 'Rules', link: '/rules' },
       { text: 'Discord', link: 'https://discord.gg/7VeubtZ' },
       {
