@@ -97,7 +97,7 @@ const closeModal = () => {
       <span class="close" @click="closeModal">&times;</span>
       <h2>Join Our Server</h2>
       <p>Connect using this IP address:</p>
-      <p class="ip-display">mc.lostshard.com</p>
+      <p class="ip-display">minecraft.lostshard.com</p>
       <button @click="copyIp" class="copy-button">{{ copyButtonText }}</button>
     </div>
   </div>
