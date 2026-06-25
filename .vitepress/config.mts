@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/Lost-Shard-Website/',
   title: "Lost Shard",
   description: "Lost Shard Minecraft Server",
   themeConfig: {
