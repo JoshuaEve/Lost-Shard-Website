@@ -1,0 +1,105 @@
+---
+title: Getting Started
+description: A quick introduction to LostShard for new players.
+outline: [2, 3]
+---
+
+# Getting Started
+
+Welcome to LostShard — a custom Minecraft RPG plugin built around deep skill progression, faction warfare, and player-driven economy. This page covers everything you need to know to get on your feet.
+
+## Your First Steps
+
+When you join the server for the first time your character is created automatically. You start with a base amount of gold, mana, and stamina.
+
+Open your character overview at any time with:
+
+```
+/stats
+```
+
+This shows your current gold, murders, mana, and stamina.
+
+## Core Resources
+
+Every player has three resources in addition to health:
+
+| Resource | Description |
+|----------|-------------|
+| **Gold** | Primary currency. Earned through gameplay and spent on training, plots, and more. |
+| **Mana** | Powers spells. Regenerates over time, faster while [meditating](/combat/status-effects#meditation). |
+| **Stamina** | Powers physical actions like blacksmithy and pet summoning. Regenerates passively. |
+
+Your current mana and stamina are always visible in the **action bar** at the bottom of the screen.
+
+## The Skill System
+
+LostShard has **10 skills**, each with up to **1000 skill points**. Skills are divided into five categories:
+
+- **Combat** — [Blades](/skills/blades), [Archery](/skills/archery), [Brawling](/skills/brawling)
+- **Gathering** — [Mining](/skills/mining), [Lumberjacking](/skills/lumberjacking), [Fishing](/skills/fishing)
+- **Crafting** — [Blacksmithy](/skills/blacksmithy)
+- **Magic** — [Magery](/skills/magery)
+- **Utility** — [Survivalism](/skills/survivalism), [Taming](/skills/taming)
+
+Skills level up naturally through use — swing a sword to gain Blades, break ore to gain Mining, and so on. You can also pay gold to train skills past their natural cap (up to 250) at a trainer NPC.
+
+Open the skills menu with:
+
+```
+/skills
+```
+
+## Joining a Group
+
+LostShard has two group systems:
+
+- **Parties** — Temporary groups for adventuring. Use `/party invite <player>` to get started. [Learn more →](/groups/parties)
+- **Clans** — Permanent factions with shared chat, control point warfare, and clan-wide buffs. Use `/clan create <name>` to found one. [Learn more →](/groups/clans)
+
+## Learning Magic
+
+Magic is powered by the [Magery](/skills/magery) skill. To cast spells you first need to find **spell scrolls** — consumable items that unlock spells permanently on your character.
+
+Once you have a spell, open your spellbook and bind spells to slots 1–9:
+
+```
+/bind <slot> <spell name>
+```
+
+Then cast with `/cast <slot>` or by holding a wand (stick) and left-clicking.
+
+## Claiming Land
+
+You can protect land from other players by creating a [plot](/plots/). Plots cost **1000 gold + 1 diamond** to create:
+
+```
+/plot create <name>
+```
+
+Plots can be upgraded into Towns, Dungeons, or Neutral zones. Advanced players and clans fight over **Control Points** — special plots that grant their owning clan powerful server-wide buffs.
+
+## Chat Channels
+
+| Channel | Command | Notes |
+|---------|---------|-------|
+| Global | `/global` or `/g <msg>` | Server-wide |
+| Party | `/party <msg>` or `/p <msg>` | Your party only |
+| Clan | `/clan <msg>` or `/c <msg>` | Your clan only |
+| Whisper | `/whisper <player> <msg>` | Private |
+| Shout | `/shout <msg>` | Broadcast (colored) |
+
+## Useful Commands at a Glance
+
+| Command | What it does |
+|---------|--------------|
+| `/stats` | View your gold, murders, mana, stamina |
+| `/skills` | Open skill menu |
+| `/bank` | Open your personal bank (27 slots) |
+| `/scrolls` | View and transfer spell scrolls |
+| `/runebook` | Manage saved teleport locations |
+| `/spawn` | Return to spawn |
+| `/meditate` | Toggle meditation for faster mana regen |
+| `/dps` | Toggle DPS mode to see your damage output |
+
+For a full list of every command see the [Commands](/commands/) section.

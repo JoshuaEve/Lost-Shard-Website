@@ -2,29 +2,34 @@
 layout: home
 
 hero:
-  name: "Lost Shard"
-  text: "The best PvP in Minecraft, Period."
+  name: "LostShard"
+  text: "Server Wiki"
+  tagline: A deep skill-based Minecraft RPG experience — combat, magic, factions, and more.
   actions:
     - theme: brand
-      text: Play Now!
-      link: '#server-ip'
-      id: play-button
-    - theme: brand
-      text: Wiki
-      link: /introduction
-    - theme: brand
-      text: Rules
-      link: /rules
-    - theme: brand
-      text: Discord
-      link: 'https://discord.gg/7VeubtZ'
-  image: /hero.png
+      text: Get Started
+      link: /getting-started
+    - theme: alt
+      text: View Commands
+      link: /commands/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: ⚔️
+    title: Skill System
+    details: Ten deep skills spanning combat, gathering, crafting, and magic — each with 1000 points of progression and a rebirth system for permanent perks.
+  - icon: 🔮
+    title: Magic & Spells
+    details: Learn spells from scrolls, bind them to hotkeys, and cast with reagents. Teleport, summon fire, heal allies, and more.
+  - icon: 🏰
+    title: Plots & Control Points
+    details: Claim land, build towns, and fight for control points that grant your clan powerful buffs.
+  - icon: 🤝
+    title: Parties & Clans
+    details: Form temporary parties for adventuring or permanent clans for faction warfare. Dedicated chat channels for every group.
+  - icon: 💰
+    title: Gold Economy
+    details: Earn gold through gameplay, spend it on skill training, plot creation, clan operations, and more.
+  - icon: 🐺
+    title: Pet Taming
+    details: Tame wolves and build a pack. Summon them to fight by your side, scale your pet capacity with your Taming skill.
 ---
