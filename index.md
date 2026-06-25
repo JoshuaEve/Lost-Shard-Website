@@ -4,15 +4,15 @@ layout: home
 hero:
   name: "LostShard"
   text: "Server Wiki"
-  tagline: A deep skill-based Minecraft RPG experience — combat, magic, factions, and more.
+  tagline: A deep skill-based Minecraft RPG experience — combat, magic, clans, and more.
   actions:
     - theme: brand
-      text: Get Started
-      link: /getting-started
+      text: Play Now!
+      link: '#server-ip'
     - theme: alt
-      text: View Commands
-      link: /commands/
-
+      text: Getting Started
+      link: /getting-started
+      
 features:
   - icon: ⚔️
     title: Skill System
